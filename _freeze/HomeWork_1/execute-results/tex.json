@@ -1,0 +1,17 @@
+{
+  "hash": "d30be3919d9bc8fbd26199bbaa1f136e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"HomeWork_1\"\nauthor: \"Konda Siri Chandana\"\nformat: pdf\nexecute:\n  echo: false\n---\n\n\n\n## Introduction\n\nThe **`Titanic`** dataset, available in base R, captures information about the survival of passengers on the RMS Titanic. The data is grouped by **passenger class**, **gender**, **age group**, and whether or not the person **survived**. It offers a valuable look into how survival rates varied across different demographics during the tragedy.\n\nOriginally formatted as a multi-dimensional table, the dataset is converted into a standard data frame format to make it easier to visualize and analyze.\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n 'table' num [1:4, 1:2, 1:2, 1:2] 0 0 35 0 0 0 17 0 118 154 ...\n - attr(*, \"dimnames\")=List of 4\n  ..$ Class   : chr [1:4] \"1st\" \"2nd\" \"3rd\" \"Crew\"\n  ..$ Sex     : chr [1:2] \"Male\" \"Female\"\n  ..$ Age     : chr [1:2] \"Child\" \"Adult\"\n  ..$ Survived: chr [1:2] \"No\" \"Yes\"\n```\n\n\n:::\n\n::: {.cell-output .cell-output-stdout}\n\n```\n   Class    Sex   Age Survived Freq\n1    1st   Male Child       No    0\n2    2nd   Male Child       No    0\n3    3rd   Male Child       No   35\n4   Crew   Male Child       No    0\n5    1st Female Child       No    0\n6    2nd Female Child       No    0\n7    3rd Female Child       No   17\n8   Crew Female Child       No    0\n9    1st   Male Adult       No  118\n10   2nd   Male Adult       No  154\n11   3rd   Male Adult       No  387\n12  Crew   Male Adult       No  670\n13   1st Female Adult       No    4\n```\n\n\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](HomeWork_1_files/figure-pdf/unnamed-chunk-2-1.pdf)\n:::\n:::\n\n\n\nThe bar chart highlights survival patterns among Titanic passengers by class and gender.\n\nMale passengers faced significantly lower survival rates, with especially high fatalities among those in **3rd class and the crew**. Even in **1st and 2nd class**, relatively few men survived.\n\nIn contrast, female passengers had notably better outcomes, particularly in **1st class**, where most survived. Survival among **women in 2nd and 3rd class** was more evenly split, while **female crew members were few** but mostly survived.\n\n-   **Gender** played a significant role in survival outcomes, with **females having a much higher chance of survival** than males.\n\n-   **Class** also mattered: passengers in **1st class** had better survival outcomes than those in **lower classes**, especially among women.\n\n-   **Crew members** were mostly men, and their survival rates were low.\n",
+    "supporting": [
+      "HomeWork_1_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
